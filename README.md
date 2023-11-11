@@ -10,8 +10,11 @@ Step-4 run the main.py file
 Step-5 we will get a URL link copy that url link on postman and for audio extraction add the endpoint /extract_audio at the end and then go to body section in postman and select form-data in that give key name as file and select type as file and then select value as file fom the uploads folder
 
 Step-6 for watermarking add the endpoint /add_watermark at the end of the url and then go to body section under that select form-data add 3 key-values pairs
+
       first set key as video type as file and select value as video file
+      
       second set key as watermark and type as file and value as image 
+      
       third set key as position type as text and value as bottom-right , bottom-left, top-left, top-right
 
 step-7 we will get the audio file and watermarked video in downloads folder
