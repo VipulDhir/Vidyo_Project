@@ -23,11 +23,14 @@ step-7 we will get the audio file and watermarked video in downloads folder
 
 inorder to use docker 
 
-step-1 inside the terminal build a docker image using "docker build -t <image-name> ."
+step-1 inside the terminal build a docker image using 
+       "docker build -t <image-name> ."
 
-step-2 build a docker container from the image using "docker run -p 5000:5000 <image-name>"
+step-2 build a docker container from the image using 
+       "docker run -p 5000:5000 <image-name>"
 
-step-3 after the container has been made use command "run docker <container-name>"
+step-3 after the container has been made use command 
+       "run docker <container-name>"
 
 step-4 using the docker desktop open the url and test for api using postman like in above steps
 
