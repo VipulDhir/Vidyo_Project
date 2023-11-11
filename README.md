@@ -7,7 +7,7 @@ Step-3 make 2 folders in the root directory of the project "uploads" and "downlo
 
 Step-4 run the main.py file
 
-Step-5 we will get a URL link copy that url link on postman and for audio extraction add the endpoint /extract_audio at the end and then go to body section in postman and select form-data in that give key name as file and select type as file and then select value as file fom the uploads folder
+Step-5 we will get a URL link copy that url link on postman and for audio extraction add the endpoint /extract_audio at the end and then go to body section in postman and select form-data in that give key name as file and select type as file and then select value as file fom the uploads folder. while testing thorough postman set the mehtod as POST
 
 Step-6 for watermarking add the endpoint /add_watermark at the end of the url and then go to body section under that select form-data add 3 key-values pairs
 
