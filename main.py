@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo
 
 app=Flask(__name__)
 
-app.config['MONGO_URI']='mongodb+srv://vipul:vipul@cluster0.63f54ws.mongodb.net/users?retryWrites=true&w=majority'
+app.config['MONGO_URI']='mongodb+srv://<username>:<password>@cluster0.63f54ws.mongodb.net/users?retryWrites=true&w=majority'
 mongo=PyMongo(app)
 
 
