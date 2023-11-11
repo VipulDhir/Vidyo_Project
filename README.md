@@ -19,9 +19,8 @@ Step-6 for watermarking add the endpoint /add_watermark at the end of the url an
 
 step-7 we will get the audio file and watermarked video in downloads folder
 
-----------------------------------------------------------------------------------------
 
-inorder to use docker 
+Docker
 
 step-1 inside the terminal build a docker image using 
        "docker build -t <image-name> ."
