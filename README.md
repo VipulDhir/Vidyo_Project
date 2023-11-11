@@ -32,7 +32,7 @@ step-2 build a docker container from the image using
 
 step-3 after the container has been made use command 
 
-       "run docker <container-name>"
+       "docker start <container-name>"
 
 step-4 using the docker desktop open the url and test for api using postman like in above steps
 
