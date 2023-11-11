@@ -1,5 +1,5 @@
 # Vidyo_Project
-step-1 open this project in any ide 
+step-1 open this project in any ide.
 step-2 add username and password in main.py file of mongodb atlas cloud
 Step-3 make 2 folders in the root directory of the project "uploads" and "downloads" and then copy one video and and an image in uploads folder for the processing
 Step-4 run the main.py file
